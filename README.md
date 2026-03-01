@@ -15,15 +15,18 @@ Website ini dirancang dengan tampilan yang bersih, warna yang konsisten, serta t
 ## Navbar
 <img width="1879" height="77" alt="image" src="https://github.com/user-attachments/assets/1a30de93-51fa-40b7-877a-2243f4241fab" />
 
-Navbar berisi:
-- Nama Website
+### Tampilan:
+1. Navbar berisi:
+  - Nama Website
+2. Menu navigasi:
+  - Home
+  - About Me
+  - Certificates
 
-Menu navigasi:
-- Home
-- About Me
-- Certificates
-
-Navbar selalu berada di bagian atas dan memiliki tampilan yang bersih serta minimalis.
+### Fitur:
+- Menggunakan Bootstrap 5 Navbar Component
+- Smooth scroll ke setiap section
+- Warna background kontras agar mudah terlihat
 
 ## Hero Section
 Hero section adalah bagian pertama yang muncul saat website dibuka.
@@ -103,6 +106,24 @@ Footer dibuat sederhana agar tidak mengganggu fokus utama website.
 
 
 # Penjelasan Code Setiap Section
+
+## NAVBAR
+Navbar dibuat menggunakan komponen Bootstrap 5 untuk mempermudah pembuatan navigasi yang responsive.
+`<nav id="navbar" class="navbar navbar-expand-lg bg-navbar fixed-top">`
+- navbar → class utama Bootstrap untuk membuat navbar
+- navbar-expand-lg → navbar akan berubah menjadi hamburger menu di layar kecil
+- bg-navbar → class custom untuk warna background
+- fixed-top → navbar tetap berada di atas saat di-scroll
+
+Bagian brand:
+`<a class="navbar-brand fw-bold" href="#">`
+- navbar-brand → menampilkan nama website
+- fw-bold → membuat teks lebih tebal
+
+Menu navigasi:
+`<ul class="navbar-nav ms-auto">`
+- navbar-nav → container menu
+- ms-auto → membuat menu berada di sisi kanan
 
 ## Hero section
 Struktur menggunakan:
