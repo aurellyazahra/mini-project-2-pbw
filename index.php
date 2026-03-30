@@ -1,3 +1,11 @@
+<?php
+include 'koneksi.php';
+?>
+
+<?php
+echo "Koneksi berhasil!";
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
